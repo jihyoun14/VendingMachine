@@ -1,0 +1,556 @@
+\hypertarget{classhomework_1_1_machine}{}\section{homework.\+Machine 클래스 참조}
+\label{classhomework_1_1_machine}\index{homework.\+Machine@{homework.\+Machine}}
+
+
+homework.\+Machine에 대한 협력 다이어그램\+:
+% FIG 0
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classhomework_1_1_machine_ae7653ea4accf5f2bf4c32f9142a35021}{Machine} ()
+\item 
+void \hyperlink{classhomework_1_1_machine_aa5f532ad515e8e5050b29780c00de43b}{Product\+Initialize} ()
+\item 
+void \hyperlink{classhomework_1_1_machine_a44fdb1f6f3fd0e74f68710a0a0c6b271}{add\+Money} (String cmd)
+\item 
+void \hyperlink{classhomework_1_1_machine_a1ccaad959f3ab4d350ed201cc2c01151}{operate} (String cmd)
+\item 
+void \hyperlink{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}{sell\+Coffee} (int index)
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{classhomework_1_1_machine_a539000dc4362b85e3c4390c799fa4e32}{return\+Change} ()
+\item 
+boolean \hyperlink{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}{is\+Out\+Of\+Stock} (int index)
+\item 
+int \hyperlink{classhomework_1_1_machine_ab9880b76766fab93570c25e619a499f9}{get\+Current\+Money} ()
+\item 
+void \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error} (String msg)
+\item 
+int \hyperlink{classhomework_1_1_machine_a6871460a79f45dda54336ec2a4554550}{total\+Change} ()
+\end{DoxyCompactItemize}
+\subsection*{정적 Public 속성}
+\begin{DoxyCompactItemize}
+\item 
+static final String\mbox{[}$\,$\mbox{]} \hyperlink{classhomework_1_1_machine_acc0990993af94d5daf7927b4553256f4}{N\+A\+ME}
+\item 
+static final int\mbox{[}$\,$\mbox{]} \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{P\+R\+I\+CE}
+\item 
+static final int\mbox{[}$\,$\mbox{]} \hyperlink{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}{C\+H\+A\+N\+G\+E\+\_\+\+V\+A\+L\+UE}
+\end{DoxyCompactItemize}
+\subsection*{Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{classhomework_1_1_c_o_f_f_e_e}{C\+O\+F\+F\+EE} $>$ \hyperlink{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}{products}
+\item 
+List$<$ \hyperlink{classhomework_1_1_change}{Change} $>$ \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}
+\item 
+int \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{current\+Money}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+
+
+Machine.\+java 파일의 9 번째 라인에서 정의되었습니다.
+
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!Machine@{Machine}}
+\index{Machine@{Machine}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{Machine()}{Machine()}}]{\setlength{\rightskip}{0pt plus 5cm}homework.\+Machine.\+Machine (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_ae7653ea4accf5f2bf4c32f9142a35021}{}\label{classhomework_1_1_machine_ae7653ea4accf5f2bf4c32f9142a35021}
+
+
+Machine.\+java 파일의 26 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  homework.\+Machine.\+Product\+Initialize().
+
+
+\begin{DoxyCode}
+26                      \{
+27             \hyperlink{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}{products} = \textcolor{keyword}{new} ArrayList<COFFEE>();
+28             \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes} = \textcolor{keyword}{new} ArrayList<Change>();
+29             \hyperlink{classhomework_1_1_machine_aa5f532ad515e8e5050b29780c00de43b}{ProductInitialize}();
+30     \}  
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 1
+
+
+
+
+\subsection{멤버 함수 문서화}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!add\+Money@{add\+Money}}
+\index{add\+Money@{add\+Money}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{add\+Money(\+String cmd)}{addMoney(String cmd)}}]{\setlength{\rightskip}{0pt plus 5cm}void homework.\+Machine.\+add\+Money (
+\begin{DoxyParamCaption}
+\item[{String}]{cmd}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_a44fdb1f6f3fd0e74f68710a0a0c6b271}{}\label{classhomework_1_1_machine_a44fdb1f6f3fd0e74f68710a0a0c6b271}
+자판기에서 돈을 추가하기 위해 coin\+Button을 눌렀을 때 작동 
+\begin{DoxyParams}{매개변수}
+{\em cmd} & \\
+\hline
+\end{DoxyParams}
+
+
+Machine.\+java 파일의 50 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine\+U\+I.\+Machine\+U\+I().
+
+
+\begin{DoxyCode}
+50                                      \{
+51         \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"1000"})) \{ \textcolor{comment}{// 눌러진 버튼이 "1000" 면}
+52             \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(0).setNumINC();
+53             \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} += 1000; \textcolor{comment}{// 현재 사용가능한 돈으로 추가}
+54             \textcolor{comment}{//break;}
+55         \}
+56         \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"500"})) \{ \textcolor{comment}{// 눌러진 버튼이 "500" 면}
+57             \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(1).setNumINC();
+58             \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} += 500;
+59             \textcolor{comment}{//break;}
+60         \}
+61         \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"100"})) \{ \textcolor{comment}{// 눌러진 버튼이 "100" 면}
+62             \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(2).setNumINC();
+63             \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} += 100;
+64             \textcolor{comment}{//break;}
+65         \}
+66         \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"50"})) \{ \textcolor{comment}{// 눌러진 버튼이 "50" 이면}
+67             \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(3).setNumINC();
+68             \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} += 50;
+69             \textcolor{comment}{//break;}
+70         \}
+71         \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"10"})) \{ \textcolor{comment}{// 눌러진 버튼이 "10" 면}
+72             \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(4).setNumINC();
+73             \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} += 10;
+74             \textcolor{comment}{//break;}
+75         \}
+76     \}
+\end{DoxyCode}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!error@{error}}
+\index{error@{error}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{error(\+String msg)}{error(String msg)}}]{\setlength{\rightskip}{0pt plus 5cm}void homework.\+Machine.\+error (
+\begin{DoxyParamCaption}
+\item[{String}]{msg}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{}\label{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}
+경고창을 출력하는 메소드 
+
+Machine.\+java 파일의 212 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+is\+Out\+Of\+Stock(), homework.\+Machine.\+operate(), homework.\+Machine.\+return\+Change().
+
+
+\begin{DoxyCode}
+212                                   \{ 
+213         JOptionPane.showMessageDialog(null, msg, \textcolor{stringliteral}{"커피 자판기 경고"}, 
+214                 JOptionPane.INFORMATION\_MESSAGE);
+215         \textcolor{keywordflow}{return};
+216     \}
+\end{DoxyCode}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!get\+Current\+Money@{get\+Current\+Money}}
+\index{get\+Current\+Money@{get\+Current\+Money}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{get\+Current\+Money()}{getCurrentMoney()}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Machine.\+get\+Current\+Money (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_ab9880b76766fab93570c25e619a499f9}{}\label{classhomework_1_1_machine_ab9880b76766fab93570c25e619a499f9}
+현재 넣은 돈을 리턴한다. \begin{DoxyReturn}{반환값}
+current\+Money 
+\end{DoxyReturn}
+
+
+Machine.\+java 파일의 205 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  homework.\+Machine.\+current\+Money.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine\+U\+I.\+Machine\+U\+I().
+
+
+\begin{DoxyCode}
+205                                  \{
+206         \textcolor{keywordflow}{return} \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney};
+207     \}
+\end{DoxyCode}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!is\+Out\+Of\+Stock@{is\+Out\+Of\+Stock}}
+\index{is\+Out\+Of\+Stock@{is\+Out\+Of\+Stock}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{is\+Out\+Of\+Stock(int index)}{isOutOfStock(int index)}}]{\setlength{\rightskip}{0pt plus 5cm}boolean homework.\+Machine.\+is\+Out\+Of\+Stock (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}{}\label{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}
+품절인지 검사한다. 
+\begin{DoxyParams}{매개변수}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+품절이면 true 아니면 false 
+\end{DoxyReturn}
+
+
+Machine.\+java 파일의 192 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  homework.\+Machine.\+error().
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+operate().
+
+
+\begin{DoxyCode}
+192                                            \{
+193         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}{products}.get(index).isEmpty()) \textcolor{comment}{// 품절이면}
+194         \{
+195             \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"재고가 없습니다! 다른 커피를 선택해주세요."});
+196             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+197         \}
+198         \textcolor{keywordflow}{else}    \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+199     \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 2
+
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!operate@{operate}}
+\index{operate@{operate}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{operate(\+String cmd)}{operate(String cmd)}}]{\setlength{\rightskip}{0pt plus 5cm}void homework.\+Machine.\+operate (
+\begin{DoxyParamCaption}
+\item[{String}]{cmd}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_a1ccaad959f3ab4d350ed201cc2c01151}{}\label{classhomework_1_1_machine_a1ccaad959f3ab4d350ed201cc2c01151}
+커피 버튼을 누르면 동작한다. 
+\begin{DoxyParams}{매개변수}
+{\em cmd} & \\
+\hline
+\end{DoxyParams}
+
+
+Machine.\+java 파일의 82 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  homework.\+Machine.\+error(), homework.\+Machine.\+is\+Out\+Of\+Stock(), homework.\+Machine.\+sell\+Coffee().
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine\+U\+I.\+Machine\+U\+I().
+
+
+\begin{DoxyCode}
+82                                     \{
+83         
+84         \textcolor{keywordflow}{while} (\textcolor{keyword}{true}) \{
+85             \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} == 0) \{ \textcolor{comment}{// 현재 넣은 돈이 없으면 에러 출력}
+86                 \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"돈을 먼저 넣어주세요!"}); 
+87                 \textcolor{keywordflow}{break};
+88             \}
+89             \textcolor{keywordflow}{else} \{
+90                 \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"AMERICANO"})) \{ \textcolor{comment}{// 눌러진 버튼이 "AMERICANO" 면}
+91                     \textcolor{keywordflow}{if} (!\hyperlink{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}{isOutOfStock}(0)) \{ \textcolor{comment}{// 품절인지 확인한다.}
+92                         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} >= \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[0])  
+      \hyperlink{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}{sellCoffee}(0); \textcolor{comment}{// 품절이 아니고, 현재돈이 부족하지 않으면 판다}
+93                         \textcolor{keywordflow}{else}    \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"돈이 "} + (\hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[0]-\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney}) + \textcolor{stringliteral}{"원 부족합니다!
+       충전해주세요!"});
+94                     \}
+95                     \textcolor{keywordflow}{break};
+96                 \}
+97                 \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"ESPRESSO"})) \{ \textcolor{comment}{// 눌러진 버튼이 "ESPRESSO" 면}
+98                     \textcolor{keywordflow}{if} (!\hyperlink{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}{isOutOfStock}(1)) \{
+99                         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} >= \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[1])  
+      \hyperlink{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}{sellCoffee}(1); \textcolor{comment}{// 품절이 아니고 현재돈이 부족하지 않으면 판다}
+100                         \textcolor{keywordflow}{else}    \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"돈이 "} + (\hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[1]-\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney}) + \textcolor{stringliteral}{"원 부족합니다!
+       충전해주세요!"});
+101                     \}
+102                     \textcolor{keywordflow}{break};
+103                 \}
+104                 \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"LATTE"})) \{ \textcolor{comment}{// 눌러진 버튼이 "LATTE" 면}
+105                     \textcolor{keywordflow}{if} (!\hyperlink{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}{isOutOfStock}(2)) \{
+106                         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} >= \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[2])  
+      \hyperlink{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}{sellCoffee}(2); \textcolor{comment}{// 품절이 아니고 현재돈이 부족하지 않으면 판다}
+107                         \textcolor{keywordflow}{else}    \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"돈이 "} + (\hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[2]-\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney}) + \textcolor{stringliteral}{"원 부족합니다!
+       충전해주세요!"});
+108                     \}
+109                     \textcolor{keywordflow}{break};
+110                 \}
+111                 \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"CAPPUCCINO"})) \{ \textcolor{comment}{// 눌러진 버튼이 "CAPPUCCINO" 이면}
+112                     \textcolor{keywordflow}{if} (!\hyperlink{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}{isOutOfStock}(3)) \{
+113                         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} >= \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[3])  
+      \hyperlink{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}{sellCoffee}(3); \textcolor{comment}{// 품절이 아니고 현재돈이 부족하지 않으면 판다}
+114                         \textcolor{keywordflow}{else}    \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"돈이 "} + (\hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[3]-\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney}) + \textcolor{stringliteral}{"원 부족합니다!
+       충전해주세요!"});
+115                     \}
+116                     \textcolor{keywordflow}{break};
+117                 \}
+118                 \textcolor{keywordflow}{if} (cmd.equals(\textcolor{stringliteral}{"CAFEMOCHA"})) \{ \textcolor{comment}{// 눌러진 버튼이 "CAFEMOCHA" 면}
+119                     \textcolor{keywordflow}{if} (!\hyperlink{classhomework_1_1_machine_a7aea2c95a5444015f3cb1c0b69376852}{isOutOfStock}(4)) \{
+120                         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} >= \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[4])  
+      \hyperlink{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}{sellCoffee}(4); \textcolor{comment}{// 품절이 아니고 현재돈이 부족하지 않으면 판다}
+121                         \textcolor{keywordflow}{else}    \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"돈이 "} + (\hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[4]-\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney}) + \textcolor{stringliteral}{"원 부족합니다!
+       충전해주세요!"});
+122                     \}
+123                     \textcolor{keywordflow}{break};
+124                 \}
+125             \}
+126         \}
+127     \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 3
+
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!Product\+Initialize@{Product\+Initialize}}
+\index{Product\+Initialize@{Product\+Initialize}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{Product\+Initialize()}{ProductInitialize()}}]{\setlength{\rightskip}{0pt plus 5cm}void homework.\+Machine.\+Product\+Initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_aa5f532ad515e8e5050b29780c00de43b}{}\label{classhomework_1_1_machine_aa5f532ad515e8e5050b29780c00de43b}
+initialize beverage name and price 
+
+Machine.\+java 파일의 35 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+Machine().
+
+
+\begin{DoxyCode}
+35                                     \{
+36         \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} = 0;
+37         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{classhomework_1_1_machine_acc0990993af94d5daf7927b4553256f4}{NAME}.length; i++) \{
+38             Change change = \textcolor{keyword}{new} Change(\hyperlink{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}{CHANGE\_VALUE}[i], 20); \textcolor{comment}{// 가치와 개수}
+39             this.\hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.add(change); \textcolor{comment}{// 거스름돈 List에 추가}
+40             
+41             COFFEE beverage = \textcolor{keyword}{new} COFFEE(\hyperlink{classhomework_1_1_machine_acc0990993af94d5daf7927b4553256f4}{NAME}[i], \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[i]); \textcolor{comment}{// 가격과 이름 초기화}
+42             this.\hyperlink{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}{products}.add(beverage); \textcolor{comment}{// 커피 List에 추가}
+43         \}
+44     \}
+\end{DoxyCode}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!return\+Change@{return\+Change}}
+\index{return\+Change@{return\+Change}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{return\+Change()}{returnChange()}}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} homework.\+Machine.\+return\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_a539000dc4362b85e3c4390c799fa4e32}{}\label{classhomework_1_1_machine_a539000dc4362b85e3c4390c799fa4e32}
+최대한 동전 개수를 최소화하기 위한 함수 
+
+Machine.\+java 파일의 150 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  homework.\+Machine.\+error(), homework.\+Machine.\+total\+Change().
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine\+U\+I.\+Machine\+U\+I().
+
+
+\begin{DoxyCode}
+150                                 \{
+151         \textcolor{keywordtype}{int}[] numOfChange = \{0, 0, 0, 0, 0, 0\}; \textcolor{comment}{// 거슬러줄 각 거스름돈의 개수}
+152         \textcolor{keywordtype}{int} i = 0; \textcolor{comment}{// CHANGE\_VALUE의 index (0 ~ 4)}
+153         
+154         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a6871460a79f45dda54336ec2a4554550}{totalChange}() == 0) \{ \textcolor{comment}{// 거스름돈이 부족해서 아직도 거슬러줄 돈이 있다면 error}
+155             \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"거슬러 줄 돈이 없어요... 돈을 더 넣어주세요."});
+156             numOfChange[0] = -1; \textcolor{comment}{// 거스름돈이 부족하다는 것을 알려줌}
+157             \textcolor{keywordflow}{return} numOfChange;
+158         \}
+159         
+160         \textcolor{keywordflow}{while} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} != 0 && i < 5) \{ \textcolor{comment}{// 거스름돈을 다 계산했을 때}
+161             \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} >= \hyperlink{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}{CHANGE\_VALUE}[i]) \{ \textcolor{comment}{// 1000원보다 크거나 같으면부터 시작}
+162                 
+163                 numOfChange[i] = \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} / \hyperlink{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}{CHANGE\_VALUE}[i]; \textcolor{comment}{// 몫 = 거슬러줄 거스름돈의
+       개수}
+164                 \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} %= \hyperlink{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}{CHANGE\_VALUE}[i]; \textcolor{comment}{// 나머지 = 아직 거슬러주지 못한 거스름돈}
+165                 
+166                 \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(i).getNum() < numOfChange[i])    \{ \textcolor{comment}{// 거슬러줘야할 돈의 개수가 모자랄 때}
+167                     numOfChange[i] = \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(i).getNum(); \textcolor{comment}{// 줄 수 있는 건 다 주고}
+168                     \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} -= numOfChange[i] * \hyperlink{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}{CHANGE\_VALUE}[i]; \textcolor{comment}{// 못 준건 다시
+       거슬러줘야할 돈에 합쳐서 넘긴다}
+169                 \}
+170             \}
+171             i ++;
+172             \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} != 0 && i == 4) \{ \textcolor{comment}{// 거스름돈이 부족해서 아직도 거슬러줄 돈이 있다면 error}
+173                 \hyperlink{classhomework_1_1_machine_a1d7f4ae53f4a73b94c1f7948637abe56}{error}(\textcolor{stringliteral}{"거슬러 줄 돈이 없어요... 돈을 더 넣어주세요."});
+174                 numOfChange[0] = -1; \textcolor{comment}{// 거스름돈이 부족하다는 것을 알려줌}
+175                 \textcolor{keywordflow}{break};
+176             \}
+177         \}
+178         
+179         \textcolor{keywordflow}{if} (numOfChange[0] != -1) \{ \textcolor{comment}{// 거스름돈이 부족하지 않고 정상작동 했다면 거스름돈에서 거슬러줘야할 만큼 뺀다.}
+180             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < 5; j++)
+181                 \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(j).setNumDEC(numOfChange[j]);
+182         \}
+183         
+184         \textcolor{keywordflow}{return} numOfChange;
+185     \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 4
+
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!sell\+Coffee@{sell\+Coffee}}
+\index{sell\+Coffee@{sell\+Coffee}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{sell\+Coffee(int index)}{sellCoffee(int index)}}]{\setlength{\rightskip}{0pt plus 5cm}void homework.\+Machine.\+sell\+Coffee (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}{}\label{classhomework_1_1_machine_a81525289e52f27b3451a180d19f26e33}
+커피를 팔 때 실행되는 메소드 재고가 늘어난다. 현재가격이 줄어든다. 
+\begin{DoxyParams}{매개변수}
+{\em index} & \\
+\hline
+\end{DoxyParams}
+
+
+Machine.\+java 파일의 135 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+operate().
+
+
+\begin{DoxyCode}
+135                                       \{
+136 
+137         ImageIcon coffeeIcon = \textcolor{keyword}{new} ImageIcon(\textcolor{stringliteral}{"images/coffee.jpg"}); \textcolor{comment}{// 커피잔 이미지}
+138         
+139         JOptionPane.showMessageDialog(null, \hyperlink{classhomework_1_1_machine_acc0990993af94d5daf7927b4553256f4}{NAME}[index] + \textcolor{stringliteral}{" 가 나왔습니다!"}
+140                 , \textcolor{stringliteral}{"COFFEE Vending Machine"}, JOptionPane.INFORMATION\_MESSAGE, coffeeIcon);
+141         
+142         \hyperlink{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}{products}.get(index).setNumOfPurchased(); \textcolor{comment}{//누적 판매수 ++}
+143         \hyperlink{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}{products}.get(index).setNumOfStock(); \textcolor{comment}{//재고 --}
+144         \hyperlink{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{currentMoney} -= \hyperlink{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{PRICE}[index]; \textcolor{comment}{// 현재 있는 돈에서 구매한 음료수의 가격만큼 빼기}
+145     \}
+\end{DoxyCode}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!total\+Change@{total\+Change}}
+\index{total\+Change@{total\+Change}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{total\+Change()}{totalChange()}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Machine.\+total\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_machine_a6871460a79f45dda54336ec2a4554550}{}\label{classhomework_1_1_machine_a6871460a79f45dda54336ec2a4554550}
+거스름돈 총액을 계산해서 리턴한다. \begin{DoxyReturn}{반환값}
+sum of change 
+\end{DoxyReturn}
+
+
+Machine.\+java 파일의 222 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+return\+Change().
+
+
+\begin{DoxyCode}
+222                              \{
+223         \textcolor{keywordflow}{return} \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(0).sum() + \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(1).sum() + 
+      \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(2).sum() + \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(3).sum() + \hyperlink{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{changes}.get(4).sum();
+224     \}
+\end{DoxyCode}
+
+
+\subsection{멤버 데이타 문서화}
+\index{homework\+::\+Machine@{homework\+::\+Machine}!C\+H\+A\+N\+G\+E\+\_\+\+V\+A\+L\+UE@{C\+H\+A\+N\+G\+E\+\_\+\+V\+A\+L\+UE}}
+\index{C\+H\+A\+N\+G\+E\+\_\+\+V\+A\+L\+UE@{C\+H\+A\+N\+G\+E\+\_\+\+V\+A\+L\+UE}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{C\+H\+A\+N\+G\+E\+\_\+\+V\+A\+L\+UE}{CHANGE_VALUE}}]{\setlength{\rightskip}{0pt plus 5cm}final int \mbox{[}$\,$\mbox{]} homework.\+Machine.\+C\+H\+A\+N\+G\+E\+\_\+\+V\+A\+L\+UE\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}{}\label{classhomework_1_1_machine_ab52b84064804f444c66656c109a17ce0}
+{\bfseries 초기값\+:}
+\begin{DoxyCode}
+= \{
+            1000, 500, 100, 50, 10
+            \}
+\end{DoxyCode}
+
+
+Machine.\+java 파일의 22 번째 라인에서 정의되었습니다.
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!changes@{changes}}
+\index{changes@{changes}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{changes}{changes}}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Change}$>$ homework.\+Machine.\+changes\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}{}\label{classhomework_1_1_machine_a48e377022719ab86eb778519dfc46a32}
+
+
+Machine.\+java 파일의 12 번째 라인에서 정의되었습니다.
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!current\+Money@{current\+Money}}
+\index{current\+Money@{current\+Money}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{current\+Money}{currentMoney}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Machine.\+current\+Money\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}{}\label{classhomework_1_1_machine_a79f249f2701117b1e20977785536dad1}
+
+
+Machine.\+java 파일의 14 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+get\+Current\+Money().
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!N\+A\+ME@{N\+A\+ME}}
+\index{N\+A\+ME@{N\+A\+ME}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{N\+A\+ME}{NAME}}]{\setlength{\rightskip}{0pt plus 5cm}final String \mbox{[}$\,$\mbox{]} homework.\+Machine.\+N\+A\+ME\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classhomework_1_1_machine_acc0990993af94d5daf7927b4553256f4}{}\label{classhomework_1_1_machine_acc0990993af94d5daf7927b4553256f4}
+{\bfseries 초기값\+:}
+\begin{DoxyCode}
+= \{
+            \textcolor{stringliteral}{"AMERICANO"}, \textcolor{stringliteral}{"ESPRESSO"}, \textcolor{stringliteral}{"LATTE"}, \textcolor{stringliteral}{"CAPPUCCINO"}, \textcolor{stringliteral}{"CAFFMOCHA"}
+            \}
+\end{DoxyCode}
+
+
+Machine.\+java 파일의 16 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine\+U\+I.\+Machine\+U\+I().
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!P\+R\+I\+CE@{P\+R\+I\+CE}}
+\index{P\+R\+I\+CE@{P\+R\+I\+CE}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{P\+R\+I\+CE}{PRICE}}]{\setlength{\rightskip}{0pt plus 5cm}final int \mbox{[}$\,$\mbox{]} homework.\+Machine.\+P\+R\+I\+CE\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}{}\label{classhomework_1_1_machine_a7b0f75289547dfd0aa81f1d842d9c7e4}
+{\bfseries 초기값\+:}
+\begin{DoxyCode}
+= \{ 
+            1000, 800, 1200, 1500, 1500
+            \}
+\end{DoxyCode}
+
+
+Machine.\+java 파일의 19 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine\+U\+I.\+Machine\+U\+I().
+
+\index{homework\+::\+Machine@{homework\+::\+Machine}!products@{products}}
+\index{products@{products}!homework\+::\+Machine@{homework\+::\+Machine}}
+\subsubsection[{\texorpdfstring{products}{products}}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf C\+O\+F\+F\+EE}$>$ homework.\+Machine.\+products\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}{}\label{classhomework_1_1_machine_aa7e2e4b22adbae6508949a4c9b7f8994}
+
+
+Machine.\+java 파일의 11 번째 라인에서 정의되었습니다.
+
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+L\+G/\+Vending\+Machine/src/homework/\hyperlink{_machine_8java}{Machine.\+java}\end{DoxyCompactItemize}

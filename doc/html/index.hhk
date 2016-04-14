@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a44fdb1f6f3fd0e74f68710a0a0c6b271"><param name="Name" value="addMoney"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a0c6c8870e13d6d3cc966a3d767707c0f"><param name="Name" value="Change"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#ab52b84064804f444c66656c109a17ce0"><param name="Name" value="CHANGE_VALUE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a48e377022719ab86eb778519dfc46a32"><param name="Name" value="changes"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a189d7104d44cafd51f79197ee78ce986"><param name="Name" value="COFFEE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a79f249f2701117b1e20977785536dad1"><param name="Name" value="currentMoney"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a1d7f4ae53f4a73b94c1f7948637abe56"><param name="Name" value="error"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#ab9880b76766fab93570c25e619a499f9"><param name="Name" value="getCurrentMoney"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#acd58219ef7f6cb83962c0d634596d1c2"><param name="Name" value="getNum"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#afb2fa0fbf5fd13c0b6d93e00a03b5975"><param name="Name" value="getNumOfPurchased"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a27f5ddb5dd1d8fa3131356b3bb722635"><param name="Name" value="getNumOfStock"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacehomework.html"><param name="Name" value="homework"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html"><param name="Name" value="homework::Change"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a0c6c8870e13d6d3cc966a3d767707c0f"><param name="Name" value="Change"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#acd58219ef7f6cb83962c0d634596d1c2"><param name="Name" value="getNum"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#ab1294e088a156e1fd723a22eb97641cc"><param name="Name" value="isEmpty"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a41ba89697443264b7d754f84c6153888"><param name="Name" value="number"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a2cdb0a927058954d7c8586cfe2344b40"><param name="Name" value="setNumDEC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a4492006ce3169a4e9f3bb294ec1f8950"><param name="Name" value="setNumINC"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a3440af845c37748236125edaa4802121"><param name="Name" value="sum"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a4639252147d1aea40044d63a1d320061"><param name="Name" value="value"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html"><param name="Name" value="homework::COFFEE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a189d7104d44cafd51f79197ee78ce986"><param name="Name" value="COFFEE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#afb2fa0fbf5fd13c0b6d93e00a03b5975"><param name="Name" value="getNumOfPurchased"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a27f5ddb5dd1d8fa3131356b3bb722635"><param name="Name" value="getNumOfStock"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a1af610078b38adfccbd6403d7f08fd47"><param name="Name" value="isEmpty"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a219259b70d681344d28ef25a006c4b00"><param name="Name" value="Name"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#aaa96b0e75eeba86edff39e4f167fcd35"><param name="Name" value="numOfPurchased"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a67a941996cd461c1e4aefd5aeb110ba9"><param name="Name" value="numOfStock"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a8b1ac1950929ce32fcd8bcc601560546"><param name="Name" value="Price"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#abe532b5d3c2f5401d6f18ddedeefa505"><param name="Name" value="setNumOfPurchased"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#ac10cce7c4f1098d8dd7b2f9faa0aaf35"><param name="Name" value="setNumOfStock"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html"><param name="Name" value="homework::Machine"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a44fdb1f6f3fd0e74f68710a0a0c6b271"><param name="Name" value="addMoney"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#ab52b84064804f444c66656c109a17ce0"><param name="Name" value="CHANGE_VALUE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a48e377022719ab86eb778519dfc46a32"><param name="Name" value="changes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a79f249f2701117b1e20977785536dad1"><param name="Name" value="currentMoney"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a1d7f4ae53f4a73b94c1f7948637abe56"><param name="Name" value="error"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#ab9880b76766fab93570c25e619a499f9"><param name="Name" value="getCurrentMoney"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a7aea2c95a5444015f3cb1c0b69376852"><param name="Name" value="isOutOfStock"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#ae7653ea4accf5f2bf4c32f9142a35021"><param name="Name" value="Machine"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#acc0990993af94d5daf7927b4553256f4"><param name="Name" value="NAME"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a1ccaad959f3ab4d350ed201cc2c01151"><param name="Name" value="operate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a7b0f75289547dfd0aa81f1d842d9c7e4"><param name="Name" value="PRICE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#aa5f532ad515e8e5050b29780c00de43b"><param name="Name" value="ProductInitialize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#aa7e2e4b22adbae6508949a4c9b7f8994"><param name="Name" value="products"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a539000dc4362b85e3c4390c799fa4e32"><param name="Name" value="returnChange"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a81525289e52f27b3451a180d19f26e33"><param name="Name" value="sellCoffee"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a6871460a79f45dda54336ec2a4554550"><param name="Name" value="totalChange"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine_u_i.html"><param name="Name" value="homework::MachineUI"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine_u_i.html#a0e2b7895984cb257668698ac745b4dc3"><param name="Name" value="MachineUI"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine_u_i.html#aaf1dedcb82c6fd171d2af67e4b5d604d"><param name="Name" value="main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#ab1294e088a156e1fd723a22eb97641cc"><param name="Name" value="isEmpty"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#ab1294e088a156e1fd723a22eb97641cc"><param name="Name" value="homework::Change"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a1af610078b38adfccbd6403d7f08fd47"><param name="Name" value="homework::COFFEE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a7aea2c95a5444015f3cb1c0b69376852"><param name="Name" value="isOutOfStock"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#ae7653ea4accf5f2bf4c32f9142a35021"><param name="Name" value="Machine"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine_u_i.html#a0e2b7895984cb257668698ac745b4dc3"><param name="Name" value="MachineUI"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine_u_i.html#aaf1dedcb82c6fd171d2af67e4b5d604d"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a219259b70d681344d28ef25a006c4b00"><param name="Name" value="Name"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#acc0990993af94d5daf7927b4553256f4"><param name="Name" value="NAME"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a41ba89697443264b7d754f84c6153888"><param name="Name" value="number"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#aaa96b0e75eeba86edff39e4f167fcd35"><param name="Name" value="numOfPurchased"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a67a941996cd461c1e4aefd5aeb110ba9"><param name="Name" value="numOfStock"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a1ccaad959f3ab4d350ed201cc2c01151"><param name="Name" value="operate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#a8b1ac1950929ce32fcd8bcc601560546"><param name="Name" value="Price"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a7b0f75289547dfd0aa81f1d842d9c7e4"><param name="Name" value="PRICE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#aa5f532ad515e8e5050b29780c00de43b"><param name="Name" value="ProductInitialize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#aa7e2e4b22adbae6508949a4c9b7f8994"><param name="Name" value="products"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a539000dc4362b85e3c4390c799fa4e32"><param name="Name" value="returnChange"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a81525289e52f27b3451a180d19f26e33"><param name="Name" value="sellCoffee"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a2cdb0a927058954d7c8586cfe2344b40"><param name="Name" value="setNumDEC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a4492006ce3169a4e9f3bb294ec1f8950"><param name="Name" value="setNumINC"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#abe532b5d3c2f5401d6f18ddedeefa505"><param name="Name" value="setNumOfPurchased"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_c_o_f_f_e_e.html#ac10cce7c4f1098d8dd7b2f9faa0aaf35"><param name="Name" value="setNumOfStock"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a3440af845c37748236125edaa4802121"><param name="Name" value="sum"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_machine.html#a6871460a79f45dda54336ec2a4554550"><param name="Name" value="totalChange"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classhomework_1_1_change.html#a4639252147d1aea40044d63a1d320061"><param name="Name" value="value"></OBJECT>
+</UL>
+</BODY>
+</HTML>

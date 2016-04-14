@@ -1,0 +1,14 @@
+digraph "homework.Machine.operate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="homework.Machine.operate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="homework.Machine.error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classhomework_1_1_machine.html#a1d7f4ae53f4a73b94c1f7948637abe56"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="homework.Machine.isOutOf\lStock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classhomework_1_1_machine.html#a7aea2c95a5444015f3cb1c0b69376852"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="homework.Machine.sellCoffee",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classhomework_1_1_machine.html#a81525289e52f27b3451a180d19f26e33"];
+}

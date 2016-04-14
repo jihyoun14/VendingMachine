@@ -1,0 +1,197 @@
+\hypertarget{classhomework_1_1_change}{}\section{homework.\+Change 클래스 참조}
+\label{classhomework_1_1_change}\index{homework.\+Change@{homework.\+Change}}
+
+
+homework.\+Change에 대한 협력 다이어그램\+:
+% FIG 0
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classhomework_1_1_change_a69a03baedb542ebbd2dce654f552d1c6}{Change} ()
+\item 
+int \hyperlink{classhomework_1_1_change_a758abae5a7a8cb009993d0f3f3aebe52}{total\+Change} ()
+\item 
+Boolean \hyperlink{classhomework_1_1_change_ab1294e088a156e1fd723a22eb97641cc}{is\+Empty} ()
+\end{DoxyCompactItemize}
+\subsection*{정적 Public 속성}
+\begin{DoxyCompactItemize}
+\item 
+static final int\mbox{[}$\,$\mbox{]} \hyperlink{classhomework_1_1_change_a3c27a6432b5637ed3c55bd8f7e8ee398}{C\+H\+A\+N\+GE}
+\end{DoxyCompactItemize}
+\subsection*{Protected 속성}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classhomework_1_1_change_adae834c30839e92655345a1d52be1109}{ten\+Won}
+\item 
+int \hyperlink{classhomework_1_1_change_aed0c969b3fa9bbe3363dcdc9538a403c}{fifty\+Won}
+\item 
+int \hyperlink{classhomework_1_1_change_af0801d579829ec7ca13d1b3e1eb83d52}{one\+Hundred\+Won}
+\item 
+int \hyperlink{classhomework_1_1_change_ad81de83f4b89fb2c1d34cc05ee89dd74}{five\+Hundred\+Won}
+\item 
+int \hyperlink{classhomework_1_1_change_a2f0f544990cce361cf62d560085d8c31}{one\+Thousand\+Won}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+
+
+Change.\+java 파일의 6 번째 라인에서 정의되었습니다.
+
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\index{homework\+::\+Change@{homework\+::\+Change}!Change@{Change}}
+\index{Change@{Change}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{Change()}{Change()}}]{\setlength{\rightskip}{0pt plus 5cm}homework.\+Change.\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_change_a69a03baedb542ebbd2dce654f552d1c6}{}\label{classhomework_1_1_change_a69a03baedb542ebbd2dce654f552d1c6}
+
+
+Change.\+java 파일의 20 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+20                     \{
+21         \hyperlink{classhomework_1_1_change_adae834c30839e92655345a1d52be1109}{tenWon} = 20;
+22         \hyperlink{classhomework_1_1_change_aed0c969b3fa9bbe3363dcdc9538a403c}{fiftyWon} = 20;
+23         \hyperlink{classhomework_1_1_change_af0801d579829ec7ca13d1b3e1eb83d52}{oneHundredWon} = 20;
+24         \hyperlink{classhomework_1_1_change_ad81de83f4b89fb2c1d34cc05ee89dd74}{fiveHundredWon} = 20;
+25         \hyperlink{classhomework_1_1_change_a2f0f544990cce361cf62d560085d8c31}{oneThousandWon} = 20;
+26     \}
+\end{DoxyCode}
+
+
+\subsection{멤버 함수 문서화}
+\index{homework\+::\+Change@{homework\+::\+Change}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{is\+Empty()}{isEmpty()}}]{\setlength{\rightskip}{0pt plus 5cm}Boolean homework.\+Change.\+is\+Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_change_ab1294e088a156e1fd723a22eb97641cc}{}\label{classhomework_1_1_change_ab1294e088a156e1fd723a22eb97641cc}
+
+
+Change.\+java 파일의 32 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  homework.\+Change.\+total\+Change().
+
+
+\begin{DoxyCode}
+32                             \{
+33         \textcolor{keywordflow}{if} (\hyperlink{classhomework_1_1_change_a758abae5a7a8cb009993d0f3f3aebe52}{totalChange}() == 0) \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+34         \textcolor{keywordflow}{else}    \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+35     \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+% FIG 1
+
+
+\index{homework\+::\+Change@{homework\+::\+Change}!total\+Change@{total\+Change}}
+\index{total\+Change@{total\+Change}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{total\+Change()}{totalChange()}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Change.\+total\+Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhomework_1_1_change_a758abae5a7a8cb009993d0f3f3aebe52}{}\label{classhomework_1_1_change_a758abae5a7a8cb009993d0f3f3aebe52}
+
+
+Change.\+java 파일의 28 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Change.\+is\+Empty().
+
+
+\begin{DoxyCode}
+28                              \{
+29         \textcolor{keywordflow}{return} \hyperlink{classhomework_1_1_change_adae834c30839e92655345a1d52be1109}{tenWon} * 10 + \hyperlink{classhomework_1_1_change_aed0c969b3fa9bbe3363dcdc9538a403c}{fiftyWon} * 50 + \hyperlink{classhomework_1_1_change_af0801d579829ec7ca13d1b3e1eb83d52}{oneHundredWon} * 100 + 
+      \hyperlink{classhomework_1_1_change_ad81de83f4b89fb2c1d34cc05ee89dd74}{fiveHundredWon} * 500 + \hyperlink{classhomework_1_1_change_a2f0f544990cce361cf62d560085d8c31}{oneThousandWon} * 1000;
+30     \}
+\end{DoxyCode}
+
+
+\subsection{멤버 데이타 문서화}
+\index{homework\+::\+Change@{homework\+::\+Change}!C\+H\+A\+N\+GE@{C\+H\+A\+N\+GE}}
+\index{C\+H\+A\+N\+GE@{C\+H\+A\+N\+GE}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{C\+H\+A\+N\+GE}{CHANGE}}]{\setlength{\rightskip}{0pt plus 5cm}final int \mbox{[}$\,$\mbox{]} homework.\+Change.\+C\+H\+A\+N\+GE\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classhomework_1_1_change_a3c27a6432b5637ed3c55bd8f7e8ee398}{}\label{classhomework_1_1_change_a3c27a6432b5637ed3c55bd8f7e8ee398}
+{\bfseries 초기값\+:}
+\begin{DoxyCode}
+= \{
+            1000, 500, 100, 50, 10
+            \}
+\end{DoxyCode}
+
+
+Change.\+java 파일의 16 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+return\+Change().
+
+\index{homework\+::\+Change@{homework\+::\+Change}!fifty\+Won@{fifty\+Won}}
+\index{fifty\+Won@{fifty\+Won}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{fifty\+Won}{fiftyWon}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Change.\+fifty\+Won\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classhomework_1_1_change_aed0c969b3fa9bbe3363dcdc9538a403c}{}\label{classhomework_1_1_change_aed0c969b3fa9bbe3363dcdc9538a403c}
+
+
+Change.\+java 파일의 8 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+add\+Money().
+
+\index{homework\+::\+Change@{homework\+::\+Change}!five\+Hundred\+Won@{five\+Hundred\+Won}}
+\index{five\+Hundred\+Won@{five\+Hundred\+Won}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{five\+Hundred\+Won}{fiveHundredWon}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Change.\+five\+Hundred\+Won\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classhomework_1_1_change_ad81de83f4b89fb2c1d34cc05ee89dd74}{}\label{classhomework_1_1_change_ad81de83f4b89fb2c1d34cc05ee89dd74}
+
+
+Change.\+java 파일의 10 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+add\+Money().
+
+\index{homework\+::\+Change@{homework\+::\+Change}!one\+Hundred\+Won@{one\+Hundred\+Won}}
+\index{one\+Hundred\+Won@{one\+Hundred\+Won}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{one\+Hundred\+Won}{oneHundredWon}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Change.\+one\+Hundred\+Won\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classhomework_1_1_change_af0801d579829ec7ca13d1b3e1eb83d52}{}\label{classhomework_1_1_change_af0801d579829ec7ca13d1b3e1eb83d52}
+
+
+Change.\+java 파일의 9 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+add\+Money().
+
+\index{homework\+::\+Change@{homework\+::\+Change}!one\+Thousand\+Won@{one\+Thousand\+Won}}
+\index{one\+Thousand\+Won@{one\+Thousand\+Won}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{one\+Thousand\+Won}{oneThousandWon}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Change.\+one\+Thousand\+Won\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classhomework_1_1_change_a2f0f544990cce361cf62d560085d8c31}{}\label{classhomework_1_1_change_a2f0f544990cce361cf62d560085d8c31}
+
+
+Change.\+java 파일의 11 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+add\+Money().
+
+\index{homework\+::\+Change@{homework\+::\+Change}!ten\+Won@{ten\+Won}}
+\index{ten\+Won@{ten\+Won}!homework\+::\+Change@{homework\+::\+Change}}
+\subsubsection[{\texorpdfstring{ten\+Won}{tenWon}}]{\setlength{\rightskip}{0pt plus 5cm}int homework.\+Change.\+ten\+Won\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classhomework_1_1_change_adae834c30839e92655345a1d52be1109}{}\label{classhomework_1_1_change_adae834c30839e92655345a1d52be1109}
+
+
+Change.\+java 파일의 7 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  homework.\+Machine.\+add\+Money().
+
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+L\+G/\+Vending\+Machine/src/homework/\hyperlink{_change_8java}{Change.\+java}\end{DoxyCompactItemize}
